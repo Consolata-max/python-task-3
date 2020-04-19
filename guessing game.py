@@ -46,10 +46,10 @@ def random_game():
                     break 
         elif try1!=easy:
                     print("That was wrong!")
-                    break
+                    
         guesses_left -= 1
         print('You now have ' + str(guesses_left) + ' guesses left!')
-        # If the user runs out of guess
+        # If the user runs out of guesses
         if guesses_left == 0:
          print('Game over')
 
